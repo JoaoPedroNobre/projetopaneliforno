@@ -1,2 +1,2 @@
 # projetopaneliforno
-vasco
+Rede social de receitas
