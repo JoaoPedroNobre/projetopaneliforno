@@ -1,8 +1,27 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="paginadelogin.css">
     </head>
     <body>
-        <h1>Página de login</h1>
+        <div>
+            <img src="https://image.similarpng.com/file/similarpng/original-picture/2021/10/Cute-chef-girl-smiling-holding-spatula-logo-hand-drawn-cartoon-art--on-transparent-background-PNG.png"class="imgperfil">
+            <h2 class="textosombreado">Entre com sua conta!</h2>
+            <form action="Homepage.html" method="get">
+                <div class="campo">
+                <label for="usuario">Usuário ou email:</label><br>
+                <input type="text" name="Usuário" id="usuario" required>
+                </div>
+                <div class="campo">
+                <label for="senha">Senha:</label><br>
+                <div class="campo-senha">
+                <input type="password" name="Senha" id="senha" required>
+                <span class="toggle-senha" onclick="mostrarSenha()"> 
+                </div>
+                </div>
+                <br>
+                <input type="submit" value="Enviar" class="botaologin">
+            </form>
+        </div>
     </body>
 </html>
