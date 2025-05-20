@@ -69,3 +69,12 @@ input[type="password"]:focus {
 .botaologin:hover {
     background-color: #0056b3;
 }
+
+.loginbox {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 0 8px white, 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    text-align: center;
+}
