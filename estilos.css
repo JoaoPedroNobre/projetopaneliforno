@@ -51,7 +51,7 @@ body {
 }
 .quadradodois {
     border: 1px solid #623717;
-    background-color: #ff8629;
+    background-color: hsl(26, 100%, 58%);
     width: 250px;
     height: 250px;
     margin-left: 20px;

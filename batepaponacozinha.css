@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  height: 100vh;
+  background-color: #fff;
+  color: #000;
+}
+
+
+.sidebar {
+  width: 300px;
+  border-right: 1px solid #000000;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+
+.header {
+  padding: 15px;
+  font-weight: bold;
+  border-bottom: 1px solid #000000;
+  background-color: hsl(26, 100%, 58%);
+  font-size: 16px;
+}
+
+
+.chat-list {
+  flex: 1;
+  overflow-y: auto;
+   background-color: hsl(26, 100%, 58%);
+}
+
+
+.chat {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.chat:hover {
+  background-color: #f5f5f5;
+}
+
+
+.avatar {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin-right: 10px;
+  flex-shrink: 0;
+}
+
+
+.chat-info {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.chat-info .username {
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 2px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.chat-info .message {
+  font-size: 13px;
+  color: #000000;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+.pagina-de-chat {
+  flex: 1;
+  background-color: bisque;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+  font-size: 18px;
+  text-align: center;
+  padding: 20px;
+}
