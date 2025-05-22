@@ -42,30 +42,53 @@ body {
 }
 
 .quadrado {
+    transition: transform 0.3s ease;
     border: 1px solid #623717;
+    border-radius: 15px;
     background-color: #ff8629;
     width: 250px;
     height: 250px;
     margin-left: 200px;
     display: inline-block;
 }
+
+.quadrado:hover {
+    transform: scale(1.1);
+    background-color: #f37f27;
+}
+
 .quadradodois {
+    transition: transform 0.3s ease;
     border: 1px solid #623717;
     background-color: hsl(26, 100%, 58%);
+    border-radius: 15px;
     width: 250px;
     height: 250px;
     margin-left: 20px;
     margin-right: 20px;
     display: inline-block;
-    
+
 }
+
+.quadradodois:hover{
+    transform: scale(1.1);
+    background-color: #f37f27;
+}
+
 .quadradotrês {
+    transition: transform 0.3s ease;
     border: 1px solid #623717;
     background-color: #ff8629;
+    border-radius: 15px;
     width: 250px;
     height: 250px;
     margin-right: 200px;
     display: inline-block;
+}
+
+.quadradotrês:hover {
+    transform: scale(1.1);
+    background-color: #f37f27;
 }
 
 .areadeescolhas {
