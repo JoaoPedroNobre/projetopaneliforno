@@ -57,3 +57,27 @@ body {
     margin-top: 120px;
     font-family: 'Times New Roman';
 }
+
+
+.home-button {
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+  font-size: 20px;
+  position: absolute;
+  left: 10px;
+  top: 3%;
+  transform: translateY(-50%);
+}
+
+.home-button:hover {
+  color: #ccc;
+}
+
+.header {
+  padding: 15px;
+  font-weight: bold;
+  border-bottom: 1px solid #000000;
+  background-color: hsl(26, 100%, 58%);
+  font-size: 16px;
+}
