@@ -3,6 +3,9 @@
  padding: 6px;
  margin: 0px;
  text-align: center;
+ justify-content: center;
+ position: relative;
+ display: flex;
 }
 
 .cabeçalhotexto {
@@ -17,7 +20,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: bisque;
-
+}
 .caixadepesquisa {
   text-align: center;
   margin: 30px 0;
@@ -48,4 +51,19 @@ body {
   background-color: #f37f27;
   transform: scale(1.1);
     background-color: #f37f27;
+}
+
+.home-button {
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+  font-size: 20px;
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.home-button:hover {
+  color: #ccc;
 }

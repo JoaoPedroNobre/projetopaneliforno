@@ -96,3 +96,14 @@ body {
   text-align: center;
   padding: 20px;
 }
+
+.home-button {
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.home-button:hover {
+  color: #ccc;
+}
