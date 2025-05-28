@@ -1,0 +1,151 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #fddfb5;
+}
+.cabe {
+ background-color: #ff8629;
+ padding: 6px;
+ margin: 0px;
+ text-align: center;
+}
+
+.cabetexto {
+color: #231206;
+text-align: center;
+font-size: 40px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+margin: 0px;
+text-shadow: 0px 1px 20px rgb(201, 173, 145); }
+
+
+.painel {
+  display: flex;
+}
+
+.menu {
+  width: 250px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.btn {
+  padding: 1rem;
+  border: none;
+  color:bisque;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: left;
+  border-radius: 10px
+}
+
+.passo {
+  background-color: #5d4037;
+}
+
+.ingrediente {
+  background-color: #9ccc65;
+  color:#231206;
+}
+
+.observacao {
+  background-color: #e64a19;
+}
+
+.texto {
+  background-color: #ff9800;
+  color:#231206;
+}
+
+.conteudo {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+  flex: 1;
+}
+
+.passo.bloco {
+  padding: 1rem;
+  border-radius: 8px;
+  width: fit-content;
+  display: flex;
+  flex-direction: column; 
+  align-items: flex-start; 
+}
+
+.etiqueta {
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 5px;
+}
+
+.verde .etiqueta {
+  background-color: #8bc34a;
+  color: #231206;
+}
+
+.marrom .etiqueta {
+  background-color: #8d6e63;
+  color: rgb(255, 255, 255);
+}
+
+.laranja .etiqueta {
+  background-color: #f57c00;
+  color: rgb(255, 255, 255);
+ 
+}
+
+.ingredientes {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.ingredientes i {
+  font-size: 2rem;
+  color: #5d4037;
+}
+
+.descricao {
+  background-color: #f8c93b;
+  padding: 0.5rem;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #602e2e;
+  max-width: 200px;
+}
+
+.sombraEhover {
+    box-shadow: 0px 1px 20px #897769;
+    transition: transform 0.3s ease;
+}
+
+.sombraEhover:hover {
+    transform: scale(1.1);
+}
+
+.imagemingrediente {
+  width: 80px;
+  margin-top: 10px; 
+}
+
+.ingredientes-lado-a-lado {
+  display: flex;
+  flex-direction: row; 
+  gap: 10px; 
+  margin-top: 10px;
+}
+
+
+.linha-passo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}

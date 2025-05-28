@@ -105,7 +105,7 @@ text-align: center;
     bottom: 10px; 
     right: 10px;  
     z-index: 1000;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
 
 .contato:hover {
@@ -127,7 +127,7 @@ text-align: center;
     border-radius: 50%;
     background-color:bisque ;
     border:1px solid #231206;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
 
 .imgperfil:hover {
@@ -144,4 +144,76 @@ color:#231206 ;
 
 a {
     text-decoration: none;
+}
+
+i {
+    font-size: 70px;
+    margin-top: 10px;
+    display: block;
+}
+
+.rodape {
+    background-color: #231206;
+    margin-top: 200px;
+    color: #ff8629;
+    padding: 40px 20px 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.conteudorodape {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.coluna {
+    max-width: 300px;
+}
+
+.coluna h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #ff8629;
+}
+
+.coluna p, .coluna ul {
+    font-size: 16px;
+}
+
+.coluna ul {
+    list-style: none;
+    padding: 0;
+}
+
+.coluna ul li {
+    margin-bottom: 10px;
+}
+
+.coluna ul li a {
+    color: #ff8629;
+    text-decoration: none;
+}
+
+.coluna ul li a:hover {
+    text-decoration: underline;
+}
+
+.redes a {
+    color: #ff8629;
+    font-size: 24px;
+    margin-right: 15px;
+    transition: transform 0.2s ease;
+}
+
+.redes a:hover {
+    transform: scale(1.2);
+}
+
+.creditos {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    border-top: 1px solid #623717;
+    padding-top: 10px;
 }
