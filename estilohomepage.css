@@ -104,7 +104,8 @@ text-align: center;
     position: fixed;
     bottom: 10px; 
     right: 10px;  
-    z-index: 1000; 
+    z-index: 1000;
+    transition: transform 0.3s ease;
   }
 
 .contato:hover {
@@ -126,6 +127,7 @@ text-align: center;
     border-radius: 50%;
     background-color:bisque ;
     border:1px solid #231206;
+    transition: transform 0.3s ease;
   }
 
 .imgperfil:hover {
