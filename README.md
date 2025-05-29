@@ -1,8 +1,3 @@
-# projetopaneliforno
-Rede social de receitas
-Desenvolvido por Ian Rodrigues, João Nobre e Ismael Silva
-
-
 # PaneliForno - Rede Social de Receitas
 
 Bem-vindo ao **PaneliForno**, uma rede social de receitas de comida! Aqui você pode compartilhar, descobrir e se inspirar com pratos deliciosos enviados por apaixonados por culinária.
