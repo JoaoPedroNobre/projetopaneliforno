@@ -6,10 +6,10 @@ Desenvolvida por Ian Rodrigues, João Nobre e Ismael Silva.
 
 ## Funcionalidades
 
--  Compartilhe suas próprias receitas
--  Descubra novas receitas de outros usuários
--  Curta e salve suas receitas favoritas
--  Pesquise por pratos, ingredientes e categorias
+- (Futuramente) Compartilhe suas próprias receitas
+- (Futuramente) Descubra novas receitas de outros usuários
+- (Futuramente) Curta e salve suas receitas favoritas
+- (Futuramente) Pesquise por pratos, ingredientes e categorias
 
 ## Tecnologias
 
